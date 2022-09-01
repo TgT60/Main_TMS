@@ -9,7 +9,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Console.WriteLine(" Select an operation\n 1)+ \n 2)- \n 3)% \n 4)* \n 5)/ \n 6)SR");
-            string operation = Console.ReadLine(); ;
+            string operation = Console.ReadLine();
             switch (operation)
             {
                 case "+":
@@ -27,29 +27,32 @@ namespace ConsoleApp2
                 case "/":
                     DeMult();
                     break;
-                case"SR":
+                case "SR":
                     Squer();
                     break;
             }
         }
-        static void Plus()
+        static double FirstNum()
         {
             Console.WriteLine("Enter the first number");
             string number1 = Console.ReadLine();
+            double plus1 = Convert.ToInt32(number1);
+            return plus1;
+        }
+        static void Plus()
+        {
+            double plus1 = FirstNum();
             Console.WriteLine("Enter the second number");
             string number2 = Console.ReadLine();
-            int plus1 = Convert.ToInt32(number1);
             int plus2 = Convert.ToInt32(number2);
             Console.WriteLine("Result is addition = " + (plus1 + plus2));
             Console.ReadLine();
         }
         static void Minus()
         {
-            Console.WriteLine("Enter the first number");
-            string number3 = Console.ReadLine();
+            double minus1 = FirstNum();
             Console.WriteLine("Enter the second number");
             string number4 = Console.ReadLine();
-            int minus1 = Convert.ToInt32(number3);
             int minus2 = Convert.ToInt32(number4);
             Console.WriteLine("Result of subtraction = " + (minus1 - minus2));
             Console.ReadLine();
@@ -64,9 +67,7 @@ namespace ConsoleApp2
         }
         static void Mult()
         {
-            Console.WriteLine("Enter the first number");
-            string number6 = Console.ReadLine();
-            int multiplication1 = Convert.ToInt32(number6);
+            double multiplication1 = FirstNum();
             Console.WriteLine("Enter the second number");
             string number7 = Console.ReadLine();
             int multiplication2 = Convert.ToInt32(number7);
@@ -75,11 +76,9 @@ namespace ConsoleApp2
         }
         static void DeMult()
         {
-            Console.WriteLine("Enter the first number");
-            string number8 = Console.ReadLine();
+            double demultiplication1 = FirstNum();
             Console.WriteLine("Enter the second number");
             string number9 = Console.ReadLine();
-            double demultiplication1 = Convert.ToDouble(number8);
             double demultiplication2 = Convert.ToDouble(number9);
             Console.WriteLine("Result of demultiplication = " + (demultiplication1 / demultiplication2));
             Console.ReadKey();
@@ -93,7 +92,7 @@ namespace ConsoleApp2
             Console.WriteLine("The square root = " + square_root);
             Console.ReadLine();
         }
-
+      
     }
 
 }
