@@ -32,6 +32,14 @@ namespace ConsoleApp2
                     break;
             }
         }
+        static double EnterNum()
+        {
+            Console.WriteLine("Enter number");
+            string number5 = Console.ReadLine();
+            double percent = Convert.ToDouble(number5);
+            return percent;
+
+        }
         static double SecondNum()
         {
             Console.WriteLine("Enter the second number");
@@ -62,9 +70,7 @@ namespace ConsoleApp2
         }
         static void Proc()
         {
-            Console.WriteLine("Enter number");
-            string number5 = Console.ReadLine();
-            double percent = Convert.ToDouble(number5);
+            double percent = EnterNum();
             Console.WriteLine("One percent = " + (percent / 100));
             Console.ReadLine();
         }
@@ -84,9 +90,7 @@ namespace ConsoleApp2
         }
         static void Squer()
         {
-            Console.WriteLine("Enter number");
-            string number10 = Console.ReadLine();
-            double sr = Convert.ToDouble(number10);
+            double sr = EnterNum();
             double square_root = Math.Sqrt(sr);
             Console.WriteLine("The square root = " + square_root);
             Console.ReadLine();
