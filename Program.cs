@@ -10,25 +10,30 @@ namespace ConsoleApp2
         {
             Console.WriteLine(" Select an operation\n 1)+ \n 2)- \n 3)% \n 4)* \n 5)/ \n 6)SR");
             string operation = Console.ReadLine();
+            string ent = Console.ReadLine();
+            double a = Convert.ToDouble(ent);
+            string ent2 = Console.ReadLine();
+            double b = Convert.ToDouble(ent2);
+
             switch (operation)
             {
                 case "+":
-                    Plus();
+                    Plus(a,b);
                     break;
                 case "-":
-                    Minus();
+                    Minus(a,b);
                     break;
                 case "%":
-                    Proc();
+                    Proc(a);
                     break;
                 case "*":
-                    Mult();
+                    Mult(a,b);
                     break;
                 case "/":
-                    DeMult();
+                    DeMult(a,b);
                     break;
                 case "SR":
-                    Squer();
+                    Squer(a);
                     break;
             }
         }
@@ -40,58 +45,36 @@ namespace ConsoleApp2
             return percent;
 
         }
-        static double SecondNum()
+    
+        static void Plus(double a,double b)
         {
-            Console.WriteLine("Enter the second number");
-            string number2 = Console.ReadLine();
-            double plus2 = Convert.ToInt32(number2);
-            return plus2;
-        }
-        static double FirstNum()
-        {
-            Console.WriteLine("Enter the first number");
-            string number1 = Console.ReadLine();
-            double plus1 = Convert.ToInt32(number1);
-            return plus1;
-        }
-        static void Plus()
-        {
-            double plus1 = FirstNum();
-            double plus2 = SecondNum();
-            Console.WriteLine("Result is addition = " + (plus1 + plus2));
+            Console.WriteLine("Result is addition = " + (a + b));
             Console.ReadLine();
         }
-        static void Minus()
+        static void Minus(double a,double b)
         {
-            double minus1 = FirstNum();
-            double minus2 = SecondNum();
-            Console.WriteLine("Result of subtraction = " + (minus1 - minus2));
+            Console.WriteLine("Result of subtraction = " + (a - b));
             Console.ReadLine();
         }
-        static void Proc()
+        static void Proc(double a)
         {
-            double percent = EnterNum();
-            Console.WriteLine("One percent = " + (percent / 100));
+            Console.WriteLine("One percent = " + (a / 100));
             Console.ReadLine();
         }
-        static void Mult()
+        static void Mult(double a, double b)
         {
-            double multiplication1 = FirstNum();
-            double multiplication2 = SecondNum();
-            Console.WriteLine("Result of multiplication = " + (multiplication1 * multiplication2));
+            
+            Console.WriteLine("Result of multiplication = " + (a * b));
             Console.ReadLine();
         }
-        static void DeMult()
-        {
-            double demultiplication1 = FirstNum();
-            double demultiplication2 = SecondNum();
-            Console.WriteLine("Result of demultiplication = " + (demultiplication1 / demultiplication2));
+        static void DeMult(double a, double b)
+        { 
+            Console.WriteLine("Result of demultiplication = " + (a / b));
             Console.ReadKey();
         }
-        static void Squer()
+        static void Squer(double a)
         {
-            double sr = EnterNum();
-            double square_root = Math.Sqrt(sr);
+            double square_root = Math.Sqrt(a);
             Console.WriteLine("The square root = " + square_root);
             Console.ReadLine();
         }
