@@ -534,3 +534,6 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,visualstudio,dotnetcore
+/HomeWork2/Ex4/Ex4.csproj
+/HomeWork2/Ex4/Properties/AssemblyInfo.cs
+/HomeWork2/HomeWork2.sln
