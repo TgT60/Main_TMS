@@ -8,10 +8,12 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Select an operation\n 1)+ \n 2)- \n 3)% \n 4)* \n 5)/ \n 6)SR");
+            Console.WriteLine(" Select an operation\n 1)+ \n 2)- \n 3)% \n 4)* \n 5)/ \n 6)SR \n 7)EX");
             string operation = Console.ReadLine();
+            Console.WriteLine("Enter number");
             string ent = Console.ReadLine();
             double a = Convert.ToDouble(ent);
+            Console.WriteLine("Enter number");
             string ent2 = Console.ReadLine();
             double b = Convert.ToDouble(ent2);
 
@@ -35,6 +37,26 @@ namespace ConsoleApp2
                 case "SR":
                     Squer(a);
                     break;
+                case "EX":
+                    Console.WriteLine("Enter Example");
+                    string s1 = Console.ReadLine();
+                    char plus = '+';
+                    int indexOfChar = s1.IndexOf(plus);
+                    
+                    s1 = s1.Trim();
+                    Console.WriteLine(s1);
+                    string[] sp = s1.Split('+');
+                  
+                    for (; ; )
+                    {
+                        Console.WriteLine($"<{word}>");
+                        word = word.Trim();
+                    }
+
+                    Console.WriteLine(indexOfChar);
+                    Console.ReadKey();
+                    break;
+
             }
         }
         static double EnterNum()
