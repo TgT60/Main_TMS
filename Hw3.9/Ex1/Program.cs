@@ -7,15 +7,13 @@ namespace Ex1
     {
         static void Main(string[] args)
         {
-            string name = Console.ReadLine();
-            Wellocme(name);
+            Wellocme();
             Nice();
             Console.ReadKey();
         }
-        static void Wellocme (string name)
+        static void Wellocme ()
         {
-            Console.WriteLine("Welcome friends " + name) ;
-
+            Console.WriteLine("Welcome friends ") ;
         }
         static void Nice()
         {
