@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace Ex1
+namespace Ex2
 {
     class Program
     {
@@ -12,16 +12,15 @@ namespace Ex1
             Nice();
             Console.ReadKey();
         }
-        static void Wellocme (string name)
+        static void Wellocme(string name)
         {
-            Console.WriteLine("Welcome friends " + name) ;
+            Console.WriteLine("Welcome friends " + name);
 
         }
         static void Nice()
         {
-            Console.WriteLine("Have a nice day" );
+            Console.WriteLine("Have a nice day");
         }
-    
-            
+
     }
 }
