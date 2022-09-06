@@ -6,7 +6,7 @@ namespace Ex3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Test Data");
+            Console.WriteLine("Test");
             string m = Console.ReadLine();
             int n = Convert.ToInt32(m);
             int sum = 0 ;
