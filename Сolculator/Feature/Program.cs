@@ -13,68 +13,84 @@ namespace ConsoleApp2
             int reload = 1;
             while (reload == 1)
             {
-                Console.WriteLine("Choise Enter tipe 1 or 2");
-                int k = Convert.ToInt32(Console.ReadLine());
-                if (k == 1)
+                    Console.WriteLine("Choise Enter tipe 1 or 2");
+                try
                 {
-                    Console.WriteLine("Enter Example");
-                    string s1 = Console.ReadLine();
-                    char fun = ' ';
-                    string s1WithoutSpace = s1.Replace(" ", "");
-                    char[] Register = { '+', '-', '*', '/' };
-                    for (int i = 0; i < 4; i++)
+                    int k = Convert.ToInt32(Console.ReadLine());
+
+                    if (k == 1)
                     {
-                        if (s1.Contains(Register[i]))
+                        try
                         {
-                            fun = Register[i];
+                            Console.WriteLine("Enter Example");
+                            string s1 = Console.ReadLine();
+                            char fun = ' ';
+                            string s1WithoutSpace = s1.Replace(" ", "");
+                            char[] Register = { '+', '-', '*', '/' };
+                            for (int i = 0; i < 4; i++)
+                            {
+                                if (s1.Contains(Register[i]))
+                                {
+                                    fun = Register[i];
+                                }
+                            }
+                            string[] parts = s1WithoutSpace.Split('+', '-', '/', '*');
+                            double c = Convert.ToDouble(parts[0]);
+                            double b = Convert.ToDouble(parts[1]);
+                            string conf = Convert.ToString(fun);
+                            Console.ReadKey();
+
+
+                            SwAndCase(conf, b, c);
+                        }
+                        catch (Exception)
+                        {
+                            Console.WriteLine("Enter Corect example");
                         }
                     }
-                    string[] parts = s1WithoutSpace.Split('+', '-', '/', '*');
-                    double c = Convert.ToDouble(parts[0]);
-                    double b = Convert.ToDouble(parts[1]);
-                    string conf = Convert.ToString(fun);
-                    Console.ReadKey();
-
-
-                    SwAndCase(conf, b, c);
+                    else if (k == 2)
+                    {
+                        SwAndCase(ChoseOP(), EnterSecondNum(), EnterFirstNum());
+                    }
+                    else
+                    {
+                        Console.WriteLine("Pleas choise correct operation");
+                    }
+                    Console.WriteLine("Else you want to use program again enter 1");
+                    int reload2 = Convert.ToInt32(Console.ReadLine());
+                    if (reload2 == 1)
+                    {
+                        reload = 1;
+                    }
+                    else
+                    {
+                        reload = 2;
+                    }
                 }
-                else if (k == 2)
-                {
-                    SwAndCase(ChoseOP(), EnterSecondNum(), EnterFirstNum());
-                }
-                else
+                catch(FormatException)           
                 {
                     Console.WriteLine("Pleas choise correct operation");
                 }
-                Console.WriteLine("Else you want to use program again enter 1");
-                int reload2 = Convert.ToInt32(Console.ReadLine());
-                if (reload2==1)
-                {
-                    reload = 1;
-                }
-                else
-                {
-                    reload = 2;
-                }    
+               
             }
         }
 
-        static void SwAndCase(string c, double a, double b)
+        static void SwAndCase(string c, double a, double b )
         {
 
             switch (c)
             {
                 case "+":
-                    Plus(a, b);
+                    Plus(a, b) ;
                     break;
                 case "-":
-                    Minus(a, b);
+                    Minus(a, b) ;
                     break;
                 case "%":
                     Proc(a);
                     break;
                 case "*":
-                    Mult(a, b);
+                    Mult(a, b) ;
                     break;
                 case "/":
                     DeMult(a, b);
@@ -101,7 +117,7 @@ namespace ConsoleApp2
         
         static string ChoseOP()
         {
-            Console.WriteLine(" Select an operation\n 1)+ \n 2)- \n 3)% \n 4)* \n 5)/ \n 6)SR \n 7)EX");
+            Console.WriteLine(" Select an operation\n 1)+ \n 2)- \n 3)% \n 4)* \n 5)/ \n 6)SR \n");
             string operation = Console.ReadLine();
             return operation;
 
@@ -113,7 +129,7 @@ namespace ConsoleApp2
         }
         static void Minus(double a, double b)
         {
-            Console.WriteLine("Result of subtraction = " + (a - b));
+            Console.WriteLine("Result of subtraction = " + (a - b ));
             Console.ReadLine();
         }
         static void Proc(double a)
