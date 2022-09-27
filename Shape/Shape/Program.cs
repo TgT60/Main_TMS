@@ -9,8 +9,11 @@ namespace Shape
     {
         static void Main(string[] args)
         {
-            ChouseFigure chouseFigure = new ChouseFigure();
-            chouseFigure.Chouse();
+            while (true)
+            {
+                ChouseFigure chouseFigure = new ChouseFigure();
+                chouseFigure.Chouse();
+            }
         }
     }
 }

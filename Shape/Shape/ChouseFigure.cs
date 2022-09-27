@@ -26,6 +26,7 @@ namespace Shape
             {
                 rectangle.Print();
             }
+         
 
         }
 

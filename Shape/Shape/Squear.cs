@@ -10,6 +10,7 @@ namespace Shape
         public int Perimetr { get; set; }
         public override void Print()
         {
+            
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
             choseTypePrint.EnterSymble();
             Console.WriteLine("Enter Perimetr");
