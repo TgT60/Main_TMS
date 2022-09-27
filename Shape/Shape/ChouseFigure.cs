@@ -14,6 +14,7 @@ namespace Shape
             Triangle triangle = new Triangle();
             Squear squear = new Squear();
             Rectangle rectangle = new Rectangle();
+            Text text = new Text();
             if (a == "1")
             {
                 triangle.Print();
@@ -25,6 +26,10 @@ namespace Shape
             else if (a == "3")
             {
                 rectangle.Print();
+            }
+            else if (a == "4")
+            {
+                text.EnterText();
             }
          
 
