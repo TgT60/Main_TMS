@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Shape
 {
-    interface InterfaceText
+    interface IPrintable
     {
+        void EnterText();
     }
 }

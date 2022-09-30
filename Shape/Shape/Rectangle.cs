@@ -9,17 +9,20 @@ namespace Shape
 
     class Rectangle : Figure
     {
+        [AtributeColor("Green")]
         public override void Print()
         {
-            Console.WriteLine("Emter hight");
-            int b = Convert.ToInt32(Console.ReadLine());//высота
-            Console.WriteLine("Enter width");
-            int i = Convert.ToInt32(Console.ReadLine()); // Шерина
+            //void add(string A) => Console.WriteLine(write);
+            //add("Emter hight  ");
+            var b = Convert.ToInt32(Console.ReadLine());//высота
+            Console.Write("Enter width  ");
+            var i = Convert.ToInt32(Console.ReadLine()); // Шерина
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
             choseTypePrint.EnterSymble();
             ChoseLocation choseLocation = new ChoseLocation();
             choseLocation.EnterX_Y();
             choseLocation.Ox();
+          
             for (int c= 0; c < b; c++)
             {
                 choseLocation.Oy();
@@ -27,13 +30,10 @@ namespace Shape
                 {
                     Console.Write(choseTypePrint.Symble);
                 }
-                Console.WriteLine();
-               
-          
+                Console.WriteLine();              
             }
             Console.ReadKey();
         }
-
     }
 }
     

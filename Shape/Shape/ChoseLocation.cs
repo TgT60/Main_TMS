@@ -22,14 +22,13 @@ namespace Shape
             for (int b = 0; b <= Y; b++)
             {
                 Console.Write(" ");
-            }
+            }   
         }
         public void EnterX_Y()
         {
-            Console.WriteLine("Enter X");
-            
+            Console.Write("Enter X  ");
             X = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Y");
+            Console.Write("Enter Y  ");
             Y = Convert.ToInt32(Console.ReadLine());
         }
     }

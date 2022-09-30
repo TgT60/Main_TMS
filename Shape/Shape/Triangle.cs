@@ -9,12 +9,13 @@ namespace Shape
     {
         public int Hight { get; set; }
         public bool Figure { get; set; }
+        [AtributeColor("Purple")]
         public override void Print()
         {
             ChoseLocation choseLocation = new ChoseLocation();
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
             choseTypePrint.EnterSymble();
-            Console.WriteLine("Enter Hight");
+            Console.Write("Enter Hight   ");
             Hight = int.Parse(Console.ReadLine());
             choseLocation.EnterX_Y();
             choseLocation.Ox();
@@ -25,11 +26,10 @@ namespace Shape
                 {
                     Console.Write(choseTypePrint.Symble);
                 }
-                Console.WriteLine();
-                
+                Console.WriteLine();             
             }
             Console.ReadKey();
-
+            
         }
     }
 }

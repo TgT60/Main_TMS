@@ -10,7 +10,7 @@ namespace Shape
         public string Symble { get; set; }
         public void EnterSymble()
         {
-            Console.WriteLine("Chose sumble ");
+            Console.Write($"Chose sumble   ");
             Symble = Console.ReadLine();
         }
     }

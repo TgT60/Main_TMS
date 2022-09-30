@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Shape
 {
+    [AtributeColor("Green")]
     class Squear:Figure
     {
         public int Perimetr { get; set; }
@@ -13,7 +14,7 @@ namespace Shape
             
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
             choseTypePrint.EnterSymble();
-            Console.WriteLine("Enter Perimetr");
+            Console.Write("Enter Perimetr  ");
             Perimetr = int.Parse(Console.ReadLine());
             ChoseLocation choseLocation = new ChoseLocation();
             choseLocation.EnterX_Y();
@@ -25,8 +26,7 @@ namespace Shape
                 {
                     Console.Write(choseTypePrint.Symble);
                 }
-                Console.WriteLine();
-                
+                Console.WriteLine();                
             }
             Console.ReadKey();
         }

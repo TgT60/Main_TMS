@@ -6,7 +6,8 @@ using System.Text;
 namespace Shape
 {
     abstract class Figure
-    {
-        public abstract void Print();
+    {  
+        public abstract void Print();                     
+
     }
 }

@@ -13,6 +13,18 @@ namespace Shape
             {
                 ChouseFigure chouseFigure = new ChouseFigure();
                 chouseFigure.Chouse();
+                //var obj = new Squear();
+                //var attribute = obj.GetType().GetCustomAttributes(false);
+                //bool attPruve = false;
+                //foreach ( var att  in attribute)
+                //{
+                //    if (att is Squear squear)
+                //    {
+                //        attPruve = true;
+                //    }
+
+                //}
+                //Console.WriteLine(attPruve);
             }
         }
     }
