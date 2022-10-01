@@ -5,13 +5,18 @@ using System.Text;
 
 namespace Shape
 {
-    [AtributeColor("Green")]
+    [ColorAtibute(ConsoleColor.Green)]
     class Squear:Figure
     {
         public int Perimetr { get; set; }
         public override void Print()
         {
-            
+            Type t = typeof(Squear);
+            object[] attrs = t.GetCustomAttributes(false);
+            foreach (ColorAtibute color in attrs)
+            { 
+            Console.ForegroundColor = color.Color;
+            }
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
             choseTypePrint.EnterSymble();
             Console.Write("Enter Perimetr  ");

@@ -5,15 +5,20 @@ using System.Text;
 
 namespace Shape
 {
-
-
+    [ColorAtibute(ConsoleColor.Blue)]
     class Rectangle : Figure
     {
-        [AtributeColor("Green")]
+    
         public override void Print()
         {
-            //void add(string A) => Console.WriteLine(write);
-            //add("Emter hight  ");
+          
+            Type t = typeof(Rectangle);
+            object[] attrs = t.GetCustomAttributes(false);
+            foreach (ColorAtibute color in attrs)
+            {
+                Console.ForegroundColor = color.Color;
+            }
+            Console.Write("Enter hight  ");
             var b = Convert.ToInt32(Console.ReadLine());//высота
             Console.Write("Enter width  ");
             var i = Convert.ToInt32(Console.ReadLine()); // Шерина
@@ -33,6 +38,7 @@ namespace Shape
                 Console.WriteLine();              
             }
             Console.ReadKey();
+           
         }
     }
 }

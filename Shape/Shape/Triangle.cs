@@ -5,13 +5,20 @@ using System.Text;
 
 namespace Shape
 {
+    [ColorAtibute(ConsoleColor.Yellow)]
     class Triangle : Figure
     {
         public int Hight { get; set; }
         public bool Figure { get; set; }
-        [AtributeColor("Purple")]
+       
         public override void Print()
         {
+            Type t = typeof(Triangle);
+            object[] attrs = t.GetCustomAttributes(false);
+            foreach (ColorAtibute color in attrs)
+            {
+                Console.ForegroundColor = color.Color;
+            }
             ChoseLocation choseLocation = new ChoseLocation();
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
             choseTypePrint.EnterSymble();

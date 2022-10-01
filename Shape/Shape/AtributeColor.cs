@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 
 namespace Shape
 {
-    class AtributeColor : Attribute
+    class ColorAtibute : Attribute
     {
-        public string Color { get; set; }
-        public AtributeColor(string color)
+        public ConsoleColor Color { get; set; }
+        public ColorAtibute( ConsoleColor color)
         {
             Color = color;
-        }
-
-      
+        } 
     }
 }
