@@ -5,40 +5,39 @@ using System.Text;
 
 namespace Shape
 {
+    
     [ColorAtibute(ConsoleColor.Blue)]
     class Rectangle : Figure
-    {
-    
+    {       
         public override void Print()
         {
-          
+            DelegateHelp delegateHelp = new DelegateHelp();  
             Type t = typeof(Rectangle);
             object[] attrs = t.GetCustomAttributes(false);
             foreach (ColorAtibute color in attrs)
             {
                 Console.ForegroundColor = color.Color;
             }
-            Console.Write("Enter hight  ");
+            delegateHelp.Test("Enter hight  ");
             var b = Convert.ToInt32(Console.ReadLine());//высота
-            Console.Write("Enter width  ");
+            delegateHelp.Test("Enter width  ");
             var i = Convert.ToInt32(Console.ReadLine()); // Шерина
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
             choseTypePrint.EnterSymble();
             ChoseLocation choseLocation = new ChoseLocation();
             choseLocation.EnterX_Y();
             choseLocation.Ox();
-          
             for (int c= 0; c < b; c++)
             {
                 choseLocation.Oy();
                 for (int g = 0;g < i; g++)
                 {
-                    Console.Write(choseTypePrint.Symble);
+                    delegateHelp.Test3(choseTypePrint.Symble);
                 }
-                Console.WriteLine();              
+                delegateHelp.Test2();
             }
-            Console.ReadKey();
-           
+            delegateHelp.Test4();
+
         }
     }
 }

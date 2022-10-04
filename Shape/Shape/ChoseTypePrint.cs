@@ -10,7 +10,8 @@ namespace Shape
         public string Symble { get; set; }
         public void EnterSymble()
         {
-            Console.Write($"Chose sumble   ");
+            DelegateHelp delegateHelp = new DelegateHelp();
+            delegateHelp.Test3($"Chose sumble   ");
             Symble = Console.ReadLine();
         }
     }

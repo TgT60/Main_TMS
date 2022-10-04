@@ -9,12 +9,13 @@ namespace Shape
     {
         public void EnterText()
         {
+            DelegateHelp delegateHelp = new DelegateHelp();
             ChoseLocation choseLocation = new ChoseLocation();
             choseLocation.EnterX_Y();
             choseLocation.Ox();
             choseLocation.Oy();
             string a = Console.ReadLine();
-            Console.WriteLine(a);
+            delegateHelp.Test(a);
         }
     }
 }

@@ -44,6 +44,7 @@
     <Compile Include="ChoseLocation.cs" />
     <Compile Include="ChoseTypePrint.cs" />
     <Compile Include="ChouseFigure.cs" />
+    <Compile Include="DelegateHelp.cs" />
     <Compile Include="Figure.cs" />
     <Compile Include="InterfaceText.cs" />
     <Compile Include="Program.cs" />

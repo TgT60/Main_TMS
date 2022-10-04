@@ -11,6 +11,7 @@ namespace Shape
         public int Perimetr { get; set; }
         public override void Print()
         {
+            DelegateHelp delegateHelp = new DelegateHelp();
             Type t = typeof(Squear);
             object[] attrs = t.GetCustomAttributes(false);
             foreach (ColorAtibute color in attrs)
@@ -19,7 +20,7 @@ namespace Shape
             }
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
             choseTypePrint.EnterSymble();
-            Console.Write("Enter Perimetr  ");
+            delegateHelp.Test3("Enter Perimetr  ");
             Perimetr = int.Parse(Console.ReadLine());
             ChoseLocation choseLocation = new ChoseLocation();
             choseLocation.EnterX_Y();
@@ -29,11 +30,11 @@ namespace Shape
                 choseLocation.Oy();
                 for (int b = 0; b < Perimetr; b++)
                 {
-                    Console.Write(choseTypePrint.Symble);
+                    delegateHelp.Test3(choseTypePrint.Symble);
                 }
-                Console.WriteLine();                
+                delegateHelp.Test2();
             }
-            Console.ReadKey();
+            delegateHelp.Test4();
         }
     }
 }

@@ -12,8 +12,9 @@ namespace Shape
             int i = 0;
             do
             {
+                DelegateHelp delegateHelp = new DelegateHelp();
                 Console.SetCursorPosition(0,0);
-                Console.Write("Chouse 1 or 2 or 3 or 4  ");
+                delegateHelp.Test3("Chouse 1 or 2 or 3 or 4  ");
                 string a = (Console.ReadLine());
                 Text text = new Text();
                 Figure figure = null;
@@ -34,8 +35,7 @@ namespace Shape
                     text.EnterText();
                 }
                 figure.Print();
-                Console.WriteLine("Do you want to draw same figure");
-               
+                delegateHelp.Test("Do you want to draw same figure");
                 string b = Console.ReadLine();
                 if (b == "y")
                 {
@@ -45,13 +45,8 @@ namespace Shape
                 {
                     i = 3;
                 }
-
             }
-            while (i<2);
-
-    
-
-            
+            while (i<2);      
         }
     }
 }

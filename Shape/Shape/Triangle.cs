@@ -13,6 +13,7 @@ namespace Shape
        
         public override void Print()
         {
+            DelegateHelp delegateHelp = new DelegateHelp();
             Type t = typeof(Triangle);
             object[] attrs = t.GetCustomAttributes(false);
             foreach (ColorAtibute color in attrs)
@@ -22,7 +23,8 @@ namespace Shape
             ChoseLocation choseLocation = new ChoseLocation();
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
             choseTypePrint.EnterSymble();
-            Console.Write("Enter Hight   ");
+
+            delegateHelp.Test("Enter Hight   ");
             Hight = int.Parse(Console.ReadLine());
             choseLocation.EnterX_Y();
             choseLocation.Ox();
@@ -31,12 +33,12 @@ namespace Shape
                 choseLocation.Oy();
                 for (int b = 0; b <= i; b++)
                 {
-                    Console.Write(choseTypePrint.Symble);
+                    delegateHelp.Test(choseTypePrint.Symble);
                 }
-                Console.WriteLine();             
+                delegateHelp.Test2();
             }
-            Console.ReadKey();
-            
+            delegateHelp.Test4();
+
         }
     }
 }
