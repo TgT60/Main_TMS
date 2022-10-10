@@ -19,7 +19,7 @@ namespace Shape
                 Console.ForegroundColor = color.Color;
             }
             delegateHelp.Test("Enter hight  ");
-            var b = Convert.ToInt32(Console.ReadLine());//высота
+            var b = Convert.ToInt32(Console.ReadLine()); //высота
             delegateHelp.Test("Enter width  ");
             var i = Convert.ToInt32(Console.ReadLine()); // Шерина
             ChoseTypePrint choseTypePrint = new ChoseTypePrint();
@@ -37,7 +37,7 @@ namespace Shape
                 delegateHelp.Test2();
             }
             delegateHelp.Test4();
-
+           
         }
     }
 }

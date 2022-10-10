@@ -7,6 +7,7 @@ namespace Shape
 {
     class ChouseFigure 
     {
+      
         public void Chouse()
         {
             int i = 0;
@@ -14,8 +15,10 @@ namespace Shape
             {
                 DelegateHelp delegateHelp = new DelegateHelp();
                 Console.SetCursorPosition(0,0);
+
                 delegateHelp.Test3("Chouse 1 or 2 or 3 or 4  ");
                 string a = (Console.ReadLine());
+
                 Text text = new Text();
                 Figure figure = null;
                 if (a == "1")
@@ -35,8 +38,10 @@ namespace Shape
                     text.EnterText();
                 }
                 figure.Print();
+
                 delegateHelp.Test("Do you want to draw same figure");
                 string b = Console.ReadLine();
+                
                 if (b == "y")
                 {
                     i = 1;
@@ -46,6 +51,7 @@ namespace Shape
                     i = 3;
                 }
             }
+            
             while (i<2);      
         }
     }

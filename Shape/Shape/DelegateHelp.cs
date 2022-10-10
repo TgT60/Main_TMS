@@ -35,11 +35,9 @@ namespace Shape
             message4 = Display4;
             message4();
         }
-        public void Test5()
+        public void Test5(string a)
         {
-            Message2 message5;
-            message5 = Display5;
-            message5();
+            Message message5;                    
         }
         public void Display(string text)
         {
@@ -57,9 +55,10 @@ namespace Shape
         {
             Console.ReadKey();
         }
-        public void Display5()
+        public string Display5(string a)
         {
             Console.ReadLine();
+            return a;
         }
     }   
 }
