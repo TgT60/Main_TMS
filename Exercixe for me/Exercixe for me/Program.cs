@@ -9,7 +9,7 @@ namespace Exercixe_for_me
         static void Main(string[] args)
         {
             ConsoleReader consoleReader = new ConsoleReader();
-            consoleReader.enter();
+            consoleReader.logic();
         }
     }
 }
