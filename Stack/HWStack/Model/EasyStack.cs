@@ -33,13 +33,29 @@ namespace HWStack.Model
             if (Count > 0)
             {
                 var item = Items.LastOrDefault();
-    
                 return Items.LastOrDefault();
             }
             else
             {
                 throw new NullReferenceException();
             }
+        }
+
+        public void UiFromStack()
+        {
+            var easyStack = new EasyStack<int>();
+
+            easyStack.Push(1);
+            easyStack.Push(2);
+            easyStack.Push(3);
+
+            var item = easyStack.Peek();
+            var item2 = easyStack.Pop();
+            var item3 = easyStack.Peek();
+
+            Console.WriteLine(item);
+            Console.WriteLine(item2);
+            Console.WriteLine(item3);
         }
     }
 }
