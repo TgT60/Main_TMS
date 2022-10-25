@@ -14,7 +14,7 @@ namespace HWStack.Model
         {
             Items.Add(item);
         }
-        public T Peek()
+        public T Pop()
         {
             if (Count > 0)
             {
@@ -27,7 +27,7 @@ namespace HWStack.Model
                 throw new NullReferenceException();
             }
         }
-        public T Pop()
+        public T Peek()
         {
             if (Count > 0)
             {
