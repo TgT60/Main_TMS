@@ -1,0 +1,14 @@
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\bin\Debug\netcoreapp3.1\LikedList_Lesson.exe
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\bin\Debug\netcoreapp3.1\LikedList_Lesson.deps.json
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\bin\Debug\netcoreapp3.1\LikedList_Lesson.runtimeconfig.json
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\bin\Debug\netcoreapp3.1\LikedList_Lesson.runtimeconfig.dev.json
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\bin\Debug\netcoreapp3.1\LikedList_Lesson.dll
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\bin\Debug\netcoreapp3.1\LikedList_Lesson.pdb
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\obj\Debug\netcoreapp3.1\LikedList_Lesson.csproj.AssemblyReference.cache
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\obj\Debug\netcoreapp3.1\LikedList_Lesson.GeneratedMSBuildEditorConfig.editorconfig
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\obj\Debug\netcoreapp3.1\LikedList_Lesson.AssemblyInfoInputs.cache
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\obj\Debug\netcoreapp3.1\LikedList_Lesson.AssemblyInfo.cs
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\obj\Debug\netcoreapp3.1\LikedList_Lesson.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\obj\Debug\netcoreapp3.1\LikedList_Lesson.dll
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\obj\Debug\netcoreapp3.1\LikedList_Lesson.pdb
+E:\TMS-lesson\Main_TMS\DataType\LikedList_Lesson\obj\Debug\netcoreapp3.1\LikedList_Lesson.genruntimeconfig.cache

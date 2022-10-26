@@ -1,0 +1,16 @@
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\bin\Debug\netcoreapp3.1\JsonPractic.exe
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\bin\Debug\netcoreapp3.1\JsonPractic.deps.json
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\bin\Debug\netcoreapp3.1\JsonPractic.runtimeconfig.json
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\bin\Debug\netcoreapp3.1\JsonPractic.runtimeconfig.dev.json
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\bin\Debug\netcoreapp3.1\JsonPractic.dll
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\bin\Debug\netcoreapp3.1\JsonPractic.pdb
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\obj\Debug\netcoreapp3.1\JsonPractic.csproj.AssemblyReference.cache
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\obj\Debug\netcoreapp3.1\JsonPractic.GeneratedMSBuildEditorConfig.editorconfig
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\obj\Debug\netcoreapp3.1\JsonPractic.AssemblyInfoInputs.cache
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\obj\Debug\netcoreapp3.1\JsonPractic.AssemblyInfo.cs
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\obj\Debug\netcoreapp3.1\JsonPractic.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\obj\Debug\netcoreapp3.1\JsonPractic.csproj.CopyComplete
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\obj\Debug\netcoreapp3.1\JsonPractic.dll
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\obj\Debug\netcoreapp3.1\JsonPractic.pdb
+E:\TMS-lesson\Main_TMS\JsonPractic\JsonPractic\obj\Debug\netcoreapp3.1\JsonPractic.genruntimeconfig.cache
