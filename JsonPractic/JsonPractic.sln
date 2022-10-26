@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonPractic", "JsonPractic\JsonPractic.csproj", "{81F2CD07-14E2-4C31-B362-E494A85C1453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F2CD07-14E2-4C31-B362-E494A85C1453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F2CD07-14E2-4C31-B362-E494A85C1453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F2CD07-14E2-4C31-B362-E494A85C1453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F2CD07-14E2-4C31-B362-E494A85C1453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C213286C-DD30-443D-99E7-67E2E831DDFF}
+	EndGlobalSection
+EndGlobal
