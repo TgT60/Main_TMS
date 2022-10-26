@@ -1,0 +1,6 @@
+E:\TMS-lesson\Main_TMS\Shape\Shape\bin\Debug\`.exe
+E:\TMS-lesson\Main_TMS\Shape\Shape\bin\Debug\`.pdb
+E:\TMS-lesson\Main_TMS\Shape\Shape\obj\Debug\Shape.csproj.AssemblyReference.cache
+E:\TMS-lesson\Main_TMS\Shape\Shape\obj\Debug\Shape.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\Shape\Shape\obj\Debug\`.exe
+E:\TMS-lesson\Main_TMS\Shape\Shape\obj\Debug\`.pdb
