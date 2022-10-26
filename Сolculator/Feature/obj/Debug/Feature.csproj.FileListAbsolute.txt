@@ -1,0 +1,6 @@
+E:\TMS-lesson\Main_TMS\Сolculator\Feature\bin\Debug\Feature.exe
+E:\TMS-lesson\Main_TMS\Сolculator\Feature\bin\Debug\Feature.pdb
+E:\TMS-lesson\Main_TMS\Сolculator\Feature\obj\Debug\Feature.csproj.AssemblyReference.cache
+E:\TMS-lesson\Main_TMS\Сolculator\Feature\obj\Debug\Feature.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\Сolculator\Feature\obj\Debug\Feature.exe
+E:\TMS-lesson\Main_TMS\Сolculator\Feature\obj\Debug\Feature.pdb

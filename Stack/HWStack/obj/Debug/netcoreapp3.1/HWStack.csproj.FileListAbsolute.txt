@@ -1,0 +1,14 @@
+E:\TMS-lesson\Main_TMS\Stack\HWStack\bin\Debug\netcoreapp3.1\HWStack.exe
+E:\TMS-lesson\Main_TMS\Stack\HWStack\bin\Debug\netcoreapp3.1\HWStack.deps.json
+E:\TMS-lesson\Main_TMS\Stack\HWStack\bin\Debug\netcoreapp3.1\HWStack.runtimeconfig.json
+E:\TMS-lesson\Main_TMS\Stack\HWStack\bin\Debug\netcoreapp3.1\HWStack.runtimeconfig.dev.json
+E:\TMS-lesson\Main_TMS\Stack\HWStack\bin\Debug\netcoreapp3.1\HWStack.dll
+E:\TMS-lesson\Main_TMS\Stack\HWStack\bin\Debug\netcoreapp3.1\HWStack.pdb
+E:\TMS-lesson\Main_TMS\Stack\HWStack\obj\Debug\netcoreapp3.1\HWStack.csproj.AssemblyReference.cache
+E:\TMS-lesson\Main_TMS\Stack\HWStack\obj\Debug\netcoreapp3.1\HWStack.GeneratedMSBuildEditorConfig.editorconfig
+E:\TMS-lesson\Main_TMS\Stack\HWStack\obj\Debug\netcoreapp3.1\HWStack.AssemblyInfoInputs.cache
+E:\TMS-lesson\Main_TMS\Stack\HWStack\obj\Debug\netcoreapp3.1\HWStack.AssemblyInfo.cs
+E:\TMS-lesson\Main_TMS\Stack\HWStack\obj\Debug\netcoreapp3.1\HWStack.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\Stack\HWStack\obj\Debug\netcoreapp3.1\HWStack.dll
+E:\TMS-lesson\Main_TMS\Stack\HWStack\obj\Debug\netcoreapp3.1\HWStack.pdb
+E:\TMS-lesson\Main_TMS\Stack\HWStack\obj\Debug\netcoreapp3.1\HWStack.genruntimeconfig.cache

@@ -1,0 +1,5 @@
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex8\bin\Debug\Ex8.exe
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex8\bin\Debug\Ex8.pdb
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex8\obj\Debug\Ex8.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex8\obj\Debug\Ex8.exe
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex8\obj\Debug\Ex8.pdb
