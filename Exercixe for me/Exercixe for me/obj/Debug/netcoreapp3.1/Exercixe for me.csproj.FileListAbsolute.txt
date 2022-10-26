@@ -1,0 +1,14 @@
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\bin\Debug\netcoreapp3.1\Exercixe for me.exe
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\bin\Debug\netcoreapp3.1\Exercixe for me.deps.json
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\bin\Debug\netcoreapp3.1\Exercixe for me.runtimeconfig.json
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\bin\Debug\netcoreapp3.1\Exercixe for me.runtimeconfig.dev.json
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\bin\Debug\netcoreapp3.1\Exercixe for me.dll
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\bin\Debug\netcoreapp3.1\Exercixe for me.pdb
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\obj\Debug\netcoreapp3.1\Exercixe for me.csproj.AssemblyReference.cache
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\obj\Debug\netcoreapp3.1\Exercixe for me.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\obj\Debug\netcoreapp3.1\Exercixe for me.AssemblyInfoInputs.cache
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\obj\Debug\netcoreapp3.1\Exercixe for me.AssemblyInfo.cs
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\obj\Debug\netcoreapp3.1\Exercixe for me.csproj.CoreCompileInputs.cache
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\obj\Debug\netcoreapp3.1\Exercixe for me.dll
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\obj\Debug\netcoreapp3.1\Exercixe for me.pdb
+C:\Users\Дима\source\repos\Exercixe for me\Exercixe for me\obj\Debug\netcoreapp3.1\Exercixe for me.genruntimeconfig.cache

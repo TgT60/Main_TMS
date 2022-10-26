@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SF4Y7yQJMR+1nxyeBa2UfuAt57wX9RICNLu3Prd/89uggb/3fGqh/XJXnHSD/+qRx6gPCCmt3sxUuYe4mywJew==",
+  "success": true,
+  "projectFilePath": "E:\\TMS-lesson\\Main_TMS\\Json\\Main\\Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Дима\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
