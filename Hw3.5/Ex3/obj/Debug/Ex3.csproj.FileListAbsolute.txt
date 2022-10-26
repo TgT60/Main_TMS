@@ -1,0 +1,5 @@
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex3\bin\Debug\Ex3.exe
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex3\bin\Debug\Ex3.pdb
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex3\obj\Debug\Ex3.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex3\obj\Debug\Ex3.exe
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex3\obj\Debug\Ex3.pdb
