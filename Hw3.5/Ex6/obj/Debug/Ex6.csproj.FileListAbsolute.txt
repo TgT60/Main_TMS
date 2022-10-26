@@ -1,0 +1,6 @@
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex6\bin\Debug\Ex6.exe
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex6\bin\Debug\Ex6.pdb
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex6\obj\Debug\Ex6.csproj.AssemblyReference.cache
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex6\obj\Debug\Ex6.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex6\obj\Debug\Ex6.exe
+E:\TMS-lesson\Main_TMS\Hw3.5\Ex6\obj\Debug\Ex6.pdb

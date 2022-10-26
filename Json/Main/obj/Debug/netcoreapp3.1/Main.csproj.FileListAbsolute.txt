@@ -1,0 +1,14 @@
+E:\TMS-lesson\Main_TMS\Json\Main\bin\Debug\netcoreapp3.1\Main.exe
+E:\TMS-lesson\Main_TMS\Json\Main\bin\Debug\netcoreapp3.1\Main.deps.json
+E:\TMS-lesson\Main_TMS\Json\Main\bin\Debug\netcoreapp3.1\Main.runtimeconfig.json
+E:\TMS-lesson\Main_TMS\Json\Main\bin\Debug\netcoreapp3.1\Main.runtimeconfig.dev.json
+E:\TMS-lesson\Main_TMS\Json\Main\bin\Debug\netcoreapp3.1\Main.dll
+E:\TMS-lesson\Main_TMS\Json\Main\bin\Debug\netcoreapp3.1\Main.pdb
+E:\TMS-lesson\Main_TMS\Json\Main\obj\Debug\netcoreapp3.1\Main.csproj.AssemblyReference.cache
+E:\TMS-lesson\Main_TMS\Json\Main\obj\Debug\netcoreapp3.1\Main.GeneratedMSBuildEditorConfig.editorconfig
+E:\TMS-lesson\Main_TMS\Json\Main\obj\Debug\netcoreapp3.1\Main.AssemblyInfoInputs.cache
+E:\TMS-lesson\Main_TMS\Json\Main\obj\Debug\netcoreapp3.1\Main.AssemblyInfo.cs
+E:\TMS-lesson\Main_TMS\Json\Main\obj\Debug\netcoreapp3.1\Main.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\Json\Main\obj\Debug\netcoreapp3.1\Main.dll
+E:\TMS-lesson\Main_TMS\Json\Main\obj\Debug\netcoreapp3.1\Main.pdb
+E:\TMS-lesson\Main_TMS\Json\Main\obj\Debug\netcoreapp3.1\Main.genruntimeconfig.cache
