@@ -1,0 +1,6 @@
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex5\bin\Debug\Ex5.exe
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex5\bin\Debug\Ex5.pdb
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex5\obj\Debug\Ex5.csproj.AssemblyReference.cache
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex5\obj\Debug\Ex5.csproj.CoreCompileInputs.cache
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex5\obj\Debug\Ex5.exe
+E:\TMS-lesson\Main_TMS\HomeWork2\Hw3\Ex5\obj\Debug\Ex5.pdb
