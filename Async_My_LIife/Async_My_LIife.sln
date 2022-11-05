@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async_My_LIife", "Async_My_LIife\Async_My_LIife.csproj", "{608DA927-9199-4498-9AF6-64DA1FC9701D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async_Really_Chached_My_Mind", "Async_Really_Chached_My_Mind\Async_Really_Chached_My_Mind.csproj", "{11C451DD-F9A9-4E84-B307-441DE86E3A56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{608DA927-9199-4498-9AF6-64DA1FC9701D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{608DA927-9199-4498-9AF6-64DA1FC9701D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{608DA927-9199-4498-9AF6-64DA1FC9701D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C451DD-F9A9-4E84-B307-441DE86E3A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C451DD-F9A9-4E84-B307-441DE86E3A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C451DD-F9A9-4E84-B307-441DE86E3A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C451DD-F9A9-4E84-B307-441DE86E3A56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

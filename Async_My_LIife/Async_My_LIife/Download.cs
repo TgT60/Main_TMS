@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace Async_My_LIife
 {
-    class Download
+    class  Download
     {
         public void DowloadNewApp()
         {
