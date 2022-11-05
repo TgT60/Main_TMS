@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Practic.Controllers
 {
@@ -17,30 +14,50 @@ namespace Practic.Controllers
         {
             _configure = config;
             _name = _configure.GetValue<string>("DataFile:Data");
-
         }
 
         [HttpGet("DataFile")]
         public string GetJsonData()
         {
             return _name;
-
         }
 
         [HttpGet("TableData")]
         public string GetTable()
         {
-            return DataTable.GetTextFromFile(_name);
-
+            return DataTable.JsonDataFileName(_name);
         }
 
-        [HttpGet("TableData_Json")]
+        [HttpGet("TableData-Json")]
         public List<DataTable> GetJson()
         {
-            return DataTable.CreateTableWithOutSerialize(_name);
-
+            return DataTable.GetDeserialisedTableFromFile(_name);
         }
 
+        [HttpGet("Item")]
+        public Item GiveAll()
+        {
+            var a = new Item();
+            return a;
+        }
+
+        [HttpGet("Item{Brand}")]
+        public Item GiveAll2()
+        {
+            var a = new Item();
+            return a;
+        }
+
+        [HttpPost("Item")]
+        public Item PutAll()
+        {
+            var b = new Item();
+            
+            b.Post();
+
+            return b;
+
+        }
     }
 
 }

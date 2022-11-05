@@ -17,12 +17,21 @@ namespace Practic
         {
             Configuration = configuration;
         }
+
         public IConfiguration Configuration { get; }
+
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
-            services.AddSwaggerDocument();
+            services.AddSwaggerDocument(conf =>
+            {
+                conf.DocumentName = "I love Tokio";
+                conf.PostProcess = b =>
+                {
+                    b.Info.Title = "Tokio";
+                };
+
+            });
 
         }
 
@@ -31,22 +40,17 @@ namespace Practic
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
-            }     
+            }
 
             app.UseOpenApi();
-            app.UseSwaggerUi3(configure=> 
-            {
-                configure.DocumentTitle = "I_love_Tokio";
-      
-            });
+
+            app.UseSwaggerUi3();
             app.UseRouting();
 
-          app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-
-            });
+            app.UseEndpoints(endpoints =>
+              {
+                  endpoints.MapControllers();
+              });
 
         }
     }

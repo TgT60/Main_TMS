@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace Practic
@@ -11,17 +8,10 @@ namespace Practic
     {
         public string Lable { get; set; }
         public int Sum { get; set; }
-
-        public DataTable(string lable, int sum)
-        {
-            Lable = lable;
-            Sum = sum;
-
-        }
-
-        public static List<DataTable> CreateTableWithOutSerialize(string name)
+        
+        public static List<DataTable> GetDeserialisedTableFromFile(string JsonData)
         {                    
-            FileStream fileStream = File.Open(name, FileMode.OpenOrCreate);
+            FileStream fileStream = File.Open(JsonData, FileMode.OpenOrCreate);
 
             StreamReader streamReader = new StreamReader(fileStream);
 
@@ -29,9 +19,9 @@ namespace Practic
 
             var b = (List<DataTable>) js.Deserialize(streamReader, typeof (List<DataTable>));
             return b;
-
         }
-        public static string GetTextFromFile(string JsonData)
+
+        public static string JsonDataFileName(string JsonData)
         {
             FileStream fileStream = File.Open(JsonData, FileMode.OpenOrCreate);
 
