@@ -10,7 +10,9 @@ namespace Async_My_LIife
         public void MakeNotesAboutWork()
         {
             Thread.Sleep(10000);
+
             Console.WriteLine("Remember all work 15");
+
             Console.WriteLine("Write all work on Notebook 16");
         }
     }

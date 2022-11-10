@@ -21,8 +21,6 @@ namespace Async_My_LIife
 
             var makeNotes = new Notes();
             makeNotes.MakeNotesAboutWork();
-
-
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Async_My_LIife
 {
-    public class PC
+    class PC
     {
         public void SitOnPc()
         {
