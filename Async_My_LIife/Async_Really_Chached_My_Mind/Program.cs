@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Async_My_LIife
+namespace Async_Really_Chached_My_Mind
 {
     class Program
     {
@@ -21,6 +21,9 @@ namespace Async_My_LIife
 
             var makeNotes = new Notes();
             makeNotes.MakeNotesAboutWork();
+
+            var testSoft = new Reupload();
+            testSoft.TestNewFiture(makeApp, downloadApp);
         }
     }
 }

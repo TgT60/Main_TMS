@@ -4,11 +4,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Async_My_LIife
+namespace Async_Really_Chached_My_Mind
 {
     class  Download
     {
-        public async void DowloadNewApp()
+        public async Task<Soft> DowloadNewApp()
         {
             Console.WriteLine("Find new soft from work 12");
 
@@ -17,7 +17,7 @@ namespace Async_My_LIife
 
             Console.WriteLine("Check new app 14");
 
-    
+            return new Soft();
 
         }
 

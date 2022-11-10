@@ -4,11 +4,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Async_My_LIife
+namespace Async_Really_Chached_My_Mind
 {
     class App
     { 
-        public async void WorkWithApp() 
+        public async Task<Texture> WorkWithApp() 
         {
             Console.WriteLine("Open app 4");
             await Task.Delay(3000);
@@ -22,6 +22,7 @@ namespace Async_My_LIife
             Console.WriteLine("Make changes 7 ");
             Console.WriteLine("Close app 8");
 
+            return new Texture();
         } 
     }
 }

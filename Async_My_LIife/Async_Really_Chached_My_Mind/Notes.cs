@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 
-namespace Async_My_LIife
+namespace Async_Really_Chached_My_Mind
 {
     class Notes
     {
