@@ -16,7 +16,6 @@ namespace Async_Really_Chached_My_Mind
             await Task.Delay(3000);
 
             Console.WriteLine("Drink potion 11");
-
         }
     }
 }

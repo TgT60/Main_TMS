@@ -18,7 +18,6 @@ namespace Async_Really_Chached_My_Mind
             Console.WriteLine("Check new app 14");
 
             return new Soft();
-
         }
 
     }
