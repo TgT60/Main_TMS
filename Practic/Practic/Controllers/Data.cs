@@ -32,32 +32,7 @@ namespace Practic.Controllers
         public List<DataTable> GetJson()
         {
             return DataTable.GetDeserialisedTableFromFile(_name);
-        }
-
-        [HttpGet("Item")]
-        public Item GiveAll()
-        {
-            var a = new Item();
-            return a;
-        }
-
-        [HttpGet("Item{Brand}")]
-        public Item GiveAll2()
-        {
-            var a = new Item();
-            return a;
-        }
-
-        [HttpPost("Item")]
-        public Item PutAll()
-        {
-            var b = new Item();
-            
-            b.Post();
-
-            return b;
-
-        }
+        }    
     }
 
 }

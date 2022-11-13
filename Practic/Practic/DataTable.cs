@@ -5,13 +5,10 @@ using Newtonsoft.Json;
 namespace Practic
 {
     public class DataTable
-    {
-        public string Lable { get; set; }
-        public int Sum { get; set; }
-        
-        public static List<DataTable> GetDeserialisedTableFromFile(string JsonData)
+    {           
+        public static List<DataTable> GetDeserialisedTableFromFile(string fileName)
         {                    
-            FileStream fileStream = File.Open(JsonData, FileMode.OpenOrCreate);
+            FileStream fileStream = File.Open(fileName , FileMode.OpenOrCreate);
 
             StreamReader streamReader = new StreamReader(fileStream);
 
@@ -21,9 +18,9 @@ namespace Practic
             return b;
         }
 
-        public static string JsonDataFileName(string JsonData)
+        public static string JsonDataFileName(string fileName)
         {
-            FileStream fileStream = File.Open(JsonData, FileMode.OpenOrCreate);
+            FileStream fileStream = File.Open(fileName , FileMode.OpenOrCreate);
 
             StreamReader streamReader = new StreamReader(fileStream);
 
@@ -33,7 +30,6 @@ namespace Practic
             streamReader.Close();
 
             return a;
-
         }
       
     }
