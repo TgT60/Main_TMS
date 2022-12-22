@@ -13,6 +13,7 @@ namespace Async_Really_Chached_My_Mind
 
             var makeApp = new App();
             var Tusk = makeApp.WorkWithApp();
+            var TuskFromAthozer = await Tusk;
 
             var makePotion = new Pill();
             makePotion.DrinkPill();
@@ -24,7 +25,7 @@ namespace Async_Really_Chached_My_Mind
             makeNotes.MakeNotesAboutWork();
 
             var testSoft = new Reupload();
-            testSoft.TestNewFiture(await soft, await Tusk);
+            testSoft.TestNewFiture(await soft, TuskFromAthozer);
         }
     }
 }
