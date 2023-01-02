@@ -4,14 +4,16 @@ using HwWithoutDeadLine.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HwWithoutDeadLine.Migrations
 {
     [DbContext(typeof(LogicContext))]
-    partial class LogicContextModelSnapshot : ModelSnapshot
+    [Migration("20230102180017_insertDepartmentData")]
+    partial class insertDepartmentData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

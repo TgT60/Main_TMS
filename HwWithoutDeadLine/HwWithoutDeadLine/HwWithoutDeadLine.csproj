@@ -9,6 +9,8 @@
     <Compile Remove="Migrations\20221222125408_FirstMigration.Designer.cs" />
     <Compile Remove="Migrations\20221222203113_fake.cs" />
     <Compile Remove="Migrations\20221222203113_fake.Designer.cs" />
+    <Compile Remove="Migrations\20230102132407_addData.cs" />
+    <Compile Remove="Migrations\20230102132407_addData.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
