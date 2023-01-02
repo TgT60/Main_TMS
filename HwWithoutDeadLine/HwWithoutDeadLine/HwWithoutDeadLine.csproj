@@ -7,12 +7,20 @@
   <ItemGroup>
     <Compile Remove="Migrations\20221222125408_FirstMigration.cs" />
     <Compile Remove="Migrations\20221222125408_FirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20221222203113_fake.cs" />
+    <Compile Remove="Migrations\20221222203113_fake.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.32" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.32" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.18.2" />
+    <PackageReference Include="NSwag.MSBuild" Version="13.18.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
