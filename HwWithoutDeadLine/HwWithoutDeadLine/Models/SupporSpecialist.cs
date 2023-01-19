@@ -8,6 +8,7 @@ namespace HwWithoutDeadLine.Models
 {
     public class SupporSpecialist
     {
+        [Column("SupporSpecialistID")]
         public Guid ID { get; set; }
 
         [Column(TypeName = "varchar(80)")]
@@ -19,5 +20,7 @@ namespace HwWithoutDeadLine.Models
 
         [Column(TypeName = "varchar(80)")]
         public string StatusSpecialist { get; set; }
+
+        public ICollection<Department> Departments;
     }
 }

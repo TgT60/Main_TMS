@@ -8,6 +8,7 @@ namespace HwWithoutDeadLine.Models
 {
     public class Department
     {
+        [Column("DepartmentID")]
         public Guid ID { get; set; }
 
         [Column(TypeName = "varchar(80)")]

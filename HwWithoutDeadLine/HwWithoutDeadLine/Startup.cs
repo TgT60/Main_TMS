@@ -26,7 +26,8 @@ namespace HwWithoutDeadLine
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<LogicContext>(item => item.UseSqlServer(Configuration.GetConnectionString("DefaultDatabase")));
+            services.AddDbContext<LogicContext>(item => 
+                    item.UseSqlServer(Configuration.GetConnectionString("DefaultDatabase")));
             services.AddSwaggerDocument();
         }
 

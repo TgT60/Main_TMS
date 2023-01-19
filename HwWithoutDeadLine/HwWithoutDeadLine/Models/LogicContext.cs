@@ -19,11 +19,13 @@ namespace HwWithoutDeadLine.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Department>().HasData(
-                new Department() {ID = Guid.NewGuid(), Title = "Emotional support"},
-                new Department() {ID = Guid.NewGuid(), Title = "Emergency support"},
-                new Department() {ID = Guid.NewGuid(), Title = "User support"}
-                );
+            //var a = new Guid("1c056f18-2284-4664-984d-384d49f1cc2d");
+            //var b = new Department();
+           
+            //modelBuilder.Entity<SupporSpecialist>()
+            //    .HasData(
+            //     new SupporSpecialist() { ID = Guid.NewGuid(), Name = "Dima", SurName = "Elenevich" , Department  } 
+            //    );
         }
        
     }

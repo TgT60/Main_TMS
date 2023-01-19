@@ -11,6 +11,8 @@
     <Compile Remove="Migrations\20221222203113_fake.Designer.cs" />
     <Compile Remove="Migrations\20230102132407_addData.cs" />
     <Compile Remove="Migrations\20230102132407_addData.Designer.cs" />
+    <Compile Remove="Migrations\20230103154945_OneMoreOneToMany.cs" />
+    <Compile Remove="Migrations\20230103154945_OneMoreOneToMany.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
